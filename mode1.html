@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>圣杯布局实践</title>
+    <link rel="stylesheet" type="text/css" href="style/mode1.css">
+</head>
+
+<body>
+    <!-- 头部，包括最上面的导航栏和导航栏下面的图片区域 -->
+    <div class="header">
+        <!-- 导航栏 -->
+        <div class="top">
+            <ul class="nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">问答</a></li>
+                <li><a href="#">文章</a></li>
+                <li><a href="#">活动</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <!-- 导航栏右侧图标 -->
+            <div class="icon-container"><img class="icon" src="images/github_icon.png" /></div>
+        </div>
+        <div class="image"></div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="content">
+        <!-- 三栏中间的那一栏 ，是主要的部分，所以要放在前面，优先加载-->
+        <div class="main">
+            <div class="main-item main-item1">
+                <h4><a href="#">java8学习之旅2</a></h4>
+                <p>Java8的Lambda表达式确实是一个非常好的特性，但是在哪些场合下使用，其实还是需要仔细考虑的。我们当然不能为了使用而使用，而是需要找到切实有用的场合。在JDBC编程中，例如查询语句，首先需要进行查询参数绑定，其次是处理返回的结果集.</p>
+                <div class="item-time"><span>2015-09-15 16:33</span></div>
+            </div>
+            <div class="main-item main-item2">
+                <h4><a href="#">HTML5本地存储</a></h4>
+                <p> 在HTML5本地存储——IndexedDB（一）中介绍了关于IndexedDB的基本使用方法，很不过瘾，这篇我们来看看indexedDB的杀器——索引。熟悉数据库的同学都知道索引的一个好处就是可以迅速定位数据，提高搜索速度，在indexedDB中有两种索引，一种是自增长的int值，一种是keyPath：自己指定索引列</p>
+                <div class="item-time"><span>2015-09-12 06:33</span></div>
+            </div>
+            <div class="main-item main-item3">
+                <h4><a href="#">HTML5 WebStorage</a></h4>
+                <p>WebStorage是HTML5中本地存储的解决方案之一，在HTML5的WebStorage概念引入之前除去IE User Data、Flash Cookie、Google Gears等看名字就不靠谱的解决方案，浏览器兼容的本地存储方案只有使用cookie。有同学可能会问，既然有了cookie本地存储，为什么还要引入WebStorage的概念？</p>
+                <div class="item-time"><span>2015-09-04 12:33</span></div>
+            </div>
+            <div class="main-item main-item4">
+                <h4><a href="#">html5 Web Workers</a></h4>
+                <p> 虽然在JavaScript中有setInterval和setTimeout函数使javaScript看起来好像使多线程执行，单实际上JavaScript使单线程的，一次只能做一件事情（关于JavaScript单线程可以看看setTimeout()和setInterval() 何时被调用执行），看个简单的例子证明一下 Web Workers Web Workers 页面一运行就会弹出一个对话框。</p>
+                <div class="item-time"><span>2015-08-22 19:53</span></div>
+            </div>
+            <div class="main-item main-item5">
+                <h4><a href="#">html5 postMessage解决跨域、跨窗口消息传递</a></h4>
+                <p> 一些麻烦事儿平时做web开发的时候关于消息传递，除了客户端与服务器传值还有几个经常会遇到的问题1.页面和其打开的新窗口的数据传递2.多窗口之间消息传递3.页面与嵌套的iframe消息传递4.上面三个问题的跨域数据传递postMessage()这些问题都有一些解决办法，但html5引入的message的API可以更方便、有效、安全的解决这些难题。</p>
+                <div class="item-time"><span>2015-08-11 09:35</span></div>
+            </div>
+            <div class="main-item main-item6">
+                <h4><a href="#">Intro to CSS 3D transforms</a></h4>
+                <p>元素需要设置需要设置perspective来激活3D效果，可以通过两种方式实现。这两种方式都会触发3D效果，但是有一点不同：第一种方式直接在一个元素上触发3D变形，但是当多个元素的时候变形效果和预期会有所不同</p>
+                <div class="item-time"><span>2015-08-05 13:47</span></div>
+            </div>
+            <div class="main-item main-item7">
+                <h4><a href="#">CSS 实现打字效果</a></h4>
+                <p>最近做项目的时候需要实现一个字符逐个出现的打字效果，在网上一搜有个不错的jQuery插件Typed.js，效果很赞。具体用法可以看看项目地址，带注释的源码200多行，不算复杂 实现方法也不神奇，大多数人肯容易可以想到，用js逐个向容器内添加字符，作者做了很多字符的出来还有速度神马的，我们可以撸一个简单的。
+                </p>
+                <div class="item-time"><span>2015-08-05 13:47</span></div>
+            </div>
+        </div>
+        <!-- 三栏中的左侧部分 -->
+        <div class="sub">
+            <!-- 作者简介 -->
+            <div class="author">
+                <img class="logo" src="images/lol.png">
+                <p>姓名：小明</p>
+                <p>访问：233</p>
+                <p>排名：233</p>
+            </div>
+            <!-- 文章分类 -->
+            <div class="classifyr">
+                <p class="classifyr-title">文章分类</p>
+                <p><a href="#">html</a>(10)</p>
+                <p><a href="#">css</a>(5)</p>
+                <p><a href="#">javascript</a>(5)</p>
+                <p><a href="#">php</a>(4)</p>
+                <p><a href="#">java</a>(5)</p>
+                <p><a href="#">ios</a>(2)</p>
+                <p><a href="#">android</a>(2)</p>
+                <p><a href="#">linux</a>(2)</p>
+                <p><a href="#">c#</a>(1)</p>
+            </div>
+            <!-- 文章归档 -->
+            <div class="pigeonhole">
+                <p class="pigeonhole-title">文章归档</p>
+                <p><a href="#">2015年9月</a>(1)</p>
+                <p><a href="#">2015年8月</a>(10)</p>
+                <p><a href="#">2015年7月</a>(7)</p>
+                <p><a href="#">2015年6月</a>(6)</p>
+                <p><a href="#">2015年5月</a>(7)</p>
+                <p><a href="#">2015年4月</a>(8)</p>
+                <p><a href="#">2015年3月</a>(3)</p>
+                <p><a href="#">2015年2月</a>(4)</p>
+            </div>
+        </div>
+        <!-- 三栏中的右侧部分 -->
+        <div class="extra">
+            <!-- 阅读排行 -->
+            <div class="ranking">
+                <p class="ranking-title">阅读排行</p>
+                <p><a href="#">Web语义化</a></p>
+                <p><a href="#">HTML5本地存储</a></p>
+                <p><a href="#">javascript基础</a></p>
+                <p><a href="#">php入门</a></p>
+                <p><a href="#">java文件操作</a></p>
+                <p><a href="#">ios网络请求</a></p>
+                <p><a href="#">android调试技巧</a></p>
+                <p><a href="#">linux内核研究</a></p>
+            </div>
+            <!-- 最新评论 -->
+            <div class="comment">
+                <p class="comment-title">最新评论</p>
+                <p><a href="#">张三</a>:文章写的很好</p>
+                <p><a href="#">周杰伦</a>:哎哟！不错哦！</p>
+                <p><a href="#">小沈阳</a>:太好啦！</p>
+                <p><a href="#">lady</a>:可以分析详细些吗？</p>
+                <p><a href="#">b-box-man</a>:hello world!</p>
+                <p><a href="#">ios之子</a>:求源代码！</p>
+            </div>
+            <!-- 推荐文章 -->
+            <div class="recommend">
+                <p class="recommend-title">推荐文章</p>
+                <p><a href="#">php入门</a></p>
+                <p><a href="#">java文件操作</a></p>
+                <p><a href="#">ios网络请求</a></p>
+                <p><a href="#">android调试技巧</a></p>
+                <p><a href="#">linux内核研究</a></p>
+                <p><a href="#">Web语义化</a></p>
+                <p><a href="#">HTML5本地存储</a></p>
+                <p><a href="#">javascript基础</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部，网页的一些声明 -->
+    <div class="footer">
+        <span>京&nbsp;ICP&nbsp;证&nbsp;123456&nbsp;号</span>
+        <span class="interval">|</span>
+        <span>Copyright © 1999-2015, LUOSHUNHAO.COM, All Rights Reserved&nbsp;</span>
+    </div>
+</body>
+
+</html>

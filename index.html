@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>圣杯布局与双飞翼布局</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+<h3>圣杯布局与双飞翼布局</h3>
+	<table class="table
+" width="900" border="1" cellspacing="0" cellpadding="2">
+  <tbody>
+    <tr>
+      <td width="300" align="center" valign="middle">类型</td>
+      <td width="300" align="center" valign="middle">例子</td>
+      <td width="300" align="center" valign="middle">说明</td>
+    </tr>
+    <tr>
+      <td height="170" align="center" valign="middle">圣杯布局</td>
+      <td align="center" valign="middle"><a href="mode1.html" target="_blank">圣杯布局例子</a></td>
+      <td align="left" valign="middle">圣杯布局实现三栏布局的方法是将三个div先向左浮动，然后将<span>中间div设置了左右padding-left和padding-right</span>后，将<span>左右两个div用相对布局position: relative并分别配合right和left属性</span>，以便左右两栏div移动后不遮挡中间div。</td>
+    </tr>
+    <tr>
+      <td height="188" align="center" valign="middle">双飞翼布局</td>
+      <td align="center" valign="middle"><a href="mode2.html" target="_blank">双飞翼布局例子</a></td>
+      <td align="left" valign="middle">双飞翼布局实现三栏，首先<span>需要在主体div上面加一个div</span>,接着将需要分栏的三个div向左浮动，然后将<span>主体div用margin-left和margin-right为左右两栏div留出位置</span>，利用相对定位，<span>将左右两个栏移动到两侧留出的位置</span>。</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
